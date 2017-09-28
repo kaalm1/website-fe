@@ -1,7 +1,6 @@
 import React from 'react'
 import {Container} from 'semantic-ui-react'
 import YoutubeEmbedVideo from 'youtube-embed-video';
-var Video = require('react-video');
 
 export default class Demos extends React.Component{
   render(){

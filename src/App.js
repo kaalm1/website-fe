@@ -8,7 +8,6 @@ class App extends Component {
   render() {
     return (
       <Container>
-        <h1>Joe Teichman Website</h1>
         <Main />
       </Container>
     );

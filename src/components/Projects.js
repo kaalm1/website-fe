@@ -1,5 +1,5 @@
 import React from 'react'
-import {Card, Container, Image, Button} from 'semantic-ui-react'
+import {Card, Container, Image, Button, Divider} from 'semantic-ui-react'
 
 class Projects extends React.Component{
   render(){
@@ -8,7 +8,13 @@ class Projects extends React.Component{
         <Card.Group>
           <Card>
             <Card.Content>
-              <Image floated='right' size='mini' src='/assets/images/avatar/large/steve.jpg' />
+              <Image src='https://i.imgur.com/f0p7jGn.png' />
+            </Card.Content>
+          </Card>
+          <Card>
+            <Card.Content>
+              <Image src='https://media.giphy.com/media/xT9IgGvkBEbxH5DWne/giphy.gif' />
+              <Divider hidden />
               <Card.Header>
                 JSoulDates
               </Card.Header>
@@ -28,6 +34,7 @@ class Projects extends React.Component{
           <Card>
             <Card.Content>
               <Image  src='http://i.imgur.com/MubF8Tb.png' />
+              <Divider hidden />
               <Card.Header>
                 QSmart
               </Card.Header>

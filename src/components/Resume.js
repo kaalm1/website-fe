@@ -1,11 +1,13 @@
 import React from 'react'
-import {Container} from 'semantic-ui-react'
+import {Container, Image} from 'semantic-ui-react'
 
 export default class Resume extends React.Component{
+
   render(){
+    const imgUrl = require('../assets/images/resume.png')
     return(
       <Container>
-        <iframe title='resume' src="http://docdro.id/vu89y99" width="850" height="1120"></iframe>
+        <Image src={imgUrl}/>
       </Container>
     )
   }

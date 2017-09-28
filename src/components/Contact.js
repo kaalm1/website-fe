@@ -25,6 +25,7 @@ export default class Contact extends React.Component{
         },
         body: JSON.stringify(this.state)
       }
+      // fetch('https://vast-plains-31864.herokuapp.com/contact', options)
       fetch('http://localhost:3000/contact', options)
       this.setState({
         name: '',
