@@ -1,34 +1,38 @@
 import React from 'react'
 import {Card, Container, Image, Button, Divider} from 'semantic-ui-react'
+const imgUrl = require('../assets/images/forje.png')
 
 class Projects extends React.Component{
+
   render(){
     return(
       <Container>
         <Card.Group>
-          <Card>
+          {/* <Card>
             <Card.Content>
               <Image src='https://i.imgur.com/f0p7jGn.png' />
             </Card.Content>
-          </Card>
+          </Card> */}
           <Card>
             <Card.Content>
-              <Image src='https://media.giphy.com/media/xT9IgGvkBEbxH5DWne/giphy.gif' />
+              <Image src={imgUrl} />
               <Divider hidden />
               <Card.Header>
-                JSoulDates
+                forJe
               </Card.Header>
               <Card.Meta>
-                Your SoulDate is but a Click Away!
+                #1 dating app powered by A.I.!
               </Card.Meta>
               <Card.Description>
-                A React-Native front-end, Rails & Node back-end dating app. Uses SocketIO and Node to facilitate chat between those that are dating as well as message notifications. Uses Facebook OAuth for additional security and an easier user experience. Uses Redux and Navigation to enable a streamless application process. Please contact me if you would like to request access.
+                The quality of the matches produced by ForJe’s advanced compatibility algorithms are simply unparalleled. That’s because this app is intelligently designed to support singles who are looking for something lasting and real. Meaningful connections and true love are at the heart of this innovative dating solution.
               </Card.Description>
             </Card.Content>
             <Card.Content extra>
+              <a href='https://play.google.com/store/apps/details?id=com.lovelabs.forje' target='_blank'>
               <div className='ui two buttons'>
                 <Button basic color='green'>Find The One!</Button>
               </div>
+              </a>
             </Card.Content>
           </Card>
           <Card>
