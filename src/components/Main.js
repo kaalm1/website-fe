@@ -9,7 +9,7 @@ import Contact from './Contact'
 const panes = [
   { menuItem: { key: 'home', icon: 'home', content: 'Home' }, render: () => <Tab.Pane><Home/></Tab.Pane> },
   { menuItem: { key: 'projects', icon: 'wrench', content: 'Projects' }, render: () => <Tab.Pane><Projects /></Tab.Pane> },
-  { menuItem: { key: 'demos', icon: 'wrench', content: 'Demos' }, render: () => <Tab.Pane><Demos /></Tab.Pane> },
+  // { menuItem: { key: 'demos', icon: 'wrench', content: 'Demos' }, render: () => <Tab.Pane><Demos /></Tab.Pane> },
   { menuItem: { key: 'resume', icon: 'address card', content: 'Resume' }, render: () => <Tab.Pane><Resume /></Tab.Pane> },
   { menuItem: { key: 'contact', icon: 'mail outline', content: 'Contact' }, render: () => <Tab.Pane><Contact /></Tab.Pane> },
   { menuItem: <a href='https://www.tumblr.com/blog/kaalm1' target='_blank' rel="noopener noreferrer"><Menu.Item key='blog'><Icon name='browser'/>Blog</Menu.Item></a>},
